@@ -1,5 +1,5 @@
 #
-
+import random
 #מקבל אינפוט לגודל המטריצה
 def input_matrix():
     
@@ -33,7 +33,21 @@ def matrix_printer(matrix):
             print(matrix[i][j],end=" ")
         print()
 
+#ממקם צוללות באופן אקראי
+def submarine_locator(matrix):
+    # rund_num=random.randrange(0,len(matrix))
+    for row in matrix:
+        index = random.randint(0, len(row) - 1)  
+        row[index] = 's'  
+    return matrix
+s_matrix=submarine_locator(matrix)
 
 
+   
+    
+
+    
+            
+    
 
 
