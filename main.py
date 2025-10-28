@@ -45,7 +45,7 @@ s_matrix=submarine_locator(matrix)
 
 def number_of_shots(matrix):
     return len(matrix)*2
-
+shots_number=number_of_shots(matrix)
    
     
 
