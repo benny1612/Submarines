@@ -33,7 +33,7 @@ def matrix_printer(matrix):
             print(matrix[i][j],end=" ")
         print()
 
-matrix_printer(matrix)
+
 
 
 
