@@ -47,7 +47,25 @@ def number_of_shots(matrix):
     return len(matrix)*2
 shots_number=number_of_shots(matrix)
    
- 
+
+def coordination_tester(matrix):
+    while True:
+        row_soht=int(input("enter row number: "))
+        if row_soht > 10:
+            print("enter one digit!")
+            continue
+        colom_shot=int(input('enter colom number: '))
+        if colom_shot > 10 :
+             print("enter one digit!")
+             continue
+        if row_soht > len(matrix) or colom_shot > len(matrix):
+            print("your out of range")
+            continue
+        return [row_soht,colom_shot]
+
+
+
+
 
     
             
