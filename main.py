@@ -42,12 +42,12 @@ def submarine_locator(matrix):
     return matrix
 s_matrix=submarine_locator(matrix)
 
-
+#קובע את מספר היריות
 def number_of_shots(matrix):
     return len(matrix)*2
 shots_number=number_of_shots(matrix)
    
-    
+ 
 
     
             
